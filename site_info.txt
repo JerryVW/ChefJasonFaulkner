@@ -1,0 +1,12 @@
+Font on logo
+
+Great Vibes 
+Calibri Italic
+
+cream color: rgb(254, 236, 200);
+light grey color: rgba(167, 167, 167, 0.8);
+silver color: rgb(192,192,192);
+gold color: rgb(215, 190, 105);
+
+
+https://themeforest.net/item/alanzo-personal-chef-catering-wp-theme/21582441
