@@ -257,25 +257,27 @@ body {
 
 /* THREE IMAGES INFO SECTION */
 
-.dinner-info {
-  display: flex;
-  flex-direction: row;
-}
-
-.dinner-options {
-  width: 100%;
+.row {
   margin: 5px 0;
-  height: 300px;
 }
 
-.dinner-options:nth-child(2) {
-  margin: 5px 5px;
+.cell {
+  padding: 0;
+  height: auto;
 }
+
+.cell:nth-child(2) {
+  margin: 0;
+}
+
 
 .img-info {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
+
+
+
 
 
 
@@ -344,9 +346,6 @@ body {
     margin: 10px 0;
   }
 
-  .dinner-info {
-    flex-direction: column;
-  }
 }
 
 @media only screen and (max-width: 480px) {
