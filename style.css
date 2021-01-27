@@ -383,4 +383,8 @@ body {
     font-size: 0.8rem;
     margin: 10px 0;
   }
+
+  .cell {
+    height: 225px;
+  }
 }
