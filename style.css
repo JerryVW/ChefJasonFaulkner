@@ -262,18 +262,61 @@ body {
   margin: 5px 0;
 }
 
-.cell {
-  padding: 0;
+.cell1 {
   height: 300px;
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/horderves.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.cell:nth-child(2){
-  padding: 0 5px;
+.cell2 {
+  border-left: 5px solid transparent;
+  height: 300px;
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/salad-dinner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.img-info {
+.cell3 {
+  border-left: 5px solid transparent;
+  height: 300px;
+  background-image: linear-gradient(to right,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/steak-dinner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.services-info {
+  opacity: 0;
   width: 100%;
   height: 100%;
+  position: absolute;
+  color: white;
+  margin: 0 auto;
+  margin-top: 70px;
+  z-index: 1000;
+  text-align: center;
+  transition:  0.4s ease;
+}
+
+.services-info:hover {
+  opacity: 1;
+}
+
+.services-info h2 {
+  font-size: 3rem;
+}
+
+hr {
+  width: 150px;
+  border: 0;
+  height: 2px;
+  background: gold;
+}
+
+.services-info p {
+  font-size: 1.4rem;
 }
 
 
@@ -284,15 +327,19 @@ body {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1505px) {
+@media only screen and (min-width: 1655px) {
   .container-fluid {
     width: 1650px;
   }
 }
 
 @media only screen and (max-width: 1140px) {
-  .cell {
-    height: 225px;
+  .services-info h2 {
+    font-size: 2.4rem;
+  }
+
+  .services-info p {
+    font-size: 1.2rem;
   }
 }
 
@@ -337,8 +384,10 @@ body {
     font-size: 0.6rem;
   }
 
-  .cell {
-    height: 175px;
+  .cell2,
+  .cell3 {
+    border: none;
+    margin-top: 5px;
   }
 
 }
@@ -358,14 +407,6 @@ body {
     margin: 10px 0;
   }
 
-  .cell:nth-child(2) {
-    margin: 5px 0;
-    padding: 0;
-  }
-
-  .cell {
-    height: 250px;
-  }
 
 }
 
@@ -384,7 +425,8 @@ body {
     margin: 10px 0;
   }
 
-  .cell {
-    height: 225px;
+  .cell:nth-child(2) {
+    margin: 5px 0;
+    padding: 0;
   }
 }
