@@ -455,8 +455,38 @@ hr {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: right;
+  text-align: center;
 }
 
+.testimonials {
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+
+.testimonial-header {
+  font-size: 2.4rem;
+  padding: 200px 0 50px 15px;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(0, 124, 52);
+  border-radius: 50%;
+  margin: 25px 0;
+}
+
+.client-name {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.testimonial-phrase {
+  font-size: 1.2rem;
+  line-height: 22px;
+  padding: 0 50px;
+}
 
 
 
@@ -564,6 +594,23 @@ hr {
     width: 350px;
   }
 
+  .testimonials-container {
+    height: 600px;
+  }
+
+  .testimonial-header {
+    font-size: 2.0rem;
+    padding: 100px 0 25px 0;
+  }
+  
+  .client-name {
+    font-size: 1.8rem;
+  }
+  
+  .testimonial-phrase {
+    font-size: 1.0rem;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -653,7 +700,7 @@ hr {
   }
   
   .experience-info {
-    height: 400px;
+    height: 410px;
   }
 
   .chef-exp {
@@ -675,5 +722,23 @@ hr {
   .tri-img-3 {
     top: 200px;
     width: 175px;
+  }
+
+  .testimonials-container {
+    height: 425px;
+  }
+
+  .testimonial-header {
+    font-size: 1.4rem;
+    padding: 10px 0 0 10px;
+  }
+  
+  .client-name {
+    font-size: 1.0rem;
+  }
+  
+  .testimonial-phrase {
+    font-size: 0.8rem;
+    padding: 5px;
   }
 }
