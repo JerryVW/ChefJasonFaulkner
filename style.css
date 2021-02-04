@@ -341,7 +341,6 @@ hr {
   position: relative;
   width: 50%;
   height: 600px;
-  border: 1px solid black;
   
 }
 
@@ -349,7 +348,7 @@ hr {
   position: relative;
   width: 50%;
   height: 600px;
-  border: 1px solid black;
+  text-align: center;
 }
 
 
@@ -392,6 +391,46 @@ hr {
   z-index: 1000;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.exp-header {
+  font-size: 2.8rem;
+  margin-top: 20%;
+}
+
+.exp-line {
+  width: 75px;
+  border: 0;
+  height: 2px;
+  background: rgb(0, 124, 52);
+}
+
+.chef-exp {
+  font-size: 1.2rem;
+  line-height: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+.exp-button {
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+  color: rgb(0, 124, 52);
+  border: 2px solid rgb(0, 124, 52);
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+  margin: 0 auto;
+}
+
+.exp-button:hover {
+  background-color: rgb(0, 255, 106);
+  color: black;
+}
+
+.exp-button:focus {
+  outline: none;
 }
 
 
@@ -535,6 +574,20 @@ hr {
     font-size: 1.0rem;
   }
 
+  .img-container {
+    height: 550px;
+    
+  }
+  
+  .experience-info {
+    height: 550px;
+  }
+
+  .exp-header {
+    font-size: 2.4rem;
+    margin-top: 5%;
+  }
+
   .tri-img-1 {
     width: 250px;
   }
@@ -578,18 +631,24 @@ hr {
     height: 400px;
   }
 
+  .chef-exp {
+    font-size: 1.0rem;
+    line-height: 18px;
+    padding: 15px;
+  }
+
   .tri-img-1 {
     top: 40px;
-    width: 200px;
+    width: 150px;
   }
 
   .tri-img-2 {
     top: 75px;
-    width: 250px;
+    width: 200px;
   }
 
   .tri-img-3 {
     top: 200px;
-    width: 225px;
+    width: 175px;
   }
 }
