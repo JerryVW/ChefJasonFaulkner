@@ -8,35 +8,32 @@
   <title>Chef Jason Faulkner</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-0">
-      <a class="navbar-brand logo" href="#"><img src="images/Jason_Faulkner-5.png" alt=""></a>
-      <button class="navbar-toggler mx-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav right ml-auto">
-          <li class="item">
-            <a href="#">HOME</a>
-          </li>
-          <li class="item">
-            <a href="#">ABOUT</a>
-          </li>
-          <li class="item">
-            <a href="#">SERVICES</a>
-          </li>
-          <li class="item">
-            <a href="#">MENU</a>
-          </li>
-          <li class="item">
-            <a href="#">CATERING</a>
-          </li>
-          <li class="item">
-            <a href="#">CONTACT</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-0">
+          <a class="navbar-brand logo" href="#"><img src="images/Jason_Faulkner-5.png" alt=""></a>
+          <button class="navbar-toggler mx-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav right ml-auto">
+              <li class="item">
+                <a href="#">HOME</a>
+              </li>
+              <li class="item">
+                <a href="#">ABOUT</a>
+              </li>
+              <li class="item">
+                <a href="menu.html">MENU</a>
+              </li>
+              <li class="item">
+                <a href="#">CATERING</a>
+              </li>
+              <li class="item">
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
     <section class="main-header">
       <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
@@ -168,17 +165,28 @@
         </div>
       </div>
 
-      <!-- MENU OPTIONS -->
-      <div class="row no-gutters menu-container">
-        <div class="col-12 col-lg-6 menu-info">
-          <h2 class="menu-header">MENUS</h2>
-          <hr class="exp-line">
-          <p class="menu-phrase">
-            Check out our menu or make a suggestion you would like. 
-          </p>
+      <div class="row">
+        <div class="col-md-12 col-lg-8 contact">
+            <div class="container form-container" id="form">
+                <h2 class="form-header">EMAIL US HERE FOR A QUOTE</h2>
+                <form class="contact-form" action="send" method="POST">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="fullName" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="number" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Your email">
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="suggestions" rows="4"  placeholder="Suggestions"></textarea>
+                  </div>
+                  <button type="submit" class="contact-button">SEND MAIL</button>
+                </form>
+              </div>
         </div>
-        <div class="col-12 col-lg-6">
-        </div>
+        <div class="col-md-12 col-lg-4 special">col-4</div>
       </div>
       
     </section>
