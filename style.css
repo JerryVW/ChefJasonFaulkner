@@ -622,6 +622,10 @@ footer {
     border: 1px solid black;
 }
 
+
+
+
+
 /* MENU LIST */
 .menu-container {
   width: 100%;
@@ -858,6 +862,22 @@ footer {
   .form-container {
     width: 80%;
   }
+
+  .specials-header {
+    font-size: 2rem;
+}
+
+.specials-line {
+    width: 175px;
+}
+
+.specials-description {
+    font-size: 1rem;
+}
+
+.price {
+    font-size: 1.4rem;
+}
 
 }
 
