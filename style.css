@@ -446,6 +446,7 @@ hr {
   font-size: 1.2rem;
   transition: 0.3s ease;
   margin: 0 auto;
+  
 }
 
 .exp-button:hover {
@@ -527,14 +528,14 @@ hr {
 }
 
 .form-container {
-    width: 40%;
+    width: 56%;
   }
   
 .form-header {
-font-size: 2rem;
+font-size: 1.6rem;
 text-align: center;
 color: rgba(33, 37, 41, 1);
-margin-top: 2rem;
+margin-top: 0.4rem;
 }
 
 .form-group {
@@ -591,8 +592,8 @@ outline: none;
 }
 
 .specials-header {
-    font-size: 3rem;
-    margin: 75px 0 50px 0;
+    font-size: 2.4rem;
+    margin: 45px 0 50px 0;
 }
 
 .specials-line {
@@ -618,9 +619,58 @@ outline: none;
 
 footer {
     width: 100%;
-    height:100px;
+    height:170px;
     border: 1px solid black;
 }
+
+.container {
+    border: none;
+    padding: 2rem;
+  }
+  
+  #icon-f,
+  #icon-i,
+  #icon-t,
+  #icon-g {
+    font-size: 3rem;
+    padding: 0 1rem;
+    display: inline-block;
+    transition: transform .3s;
+  }
+  
+  #icon-f {
+    color: #3b5998;
+  }
+  
+  #icon-i {
+    color: #e95950;
+  }
+  
+  #icon-t {
+    color: #55acee;
+  }
+  
+  #icon-g {
+    color: #dd4b39;
+  }
+  
+  #icon-f:hover, 
+  #icon-i:hover, 
+  #icon-t:hover, 
+  #icon-g:hover { 
+    transform: translateY(-0.4rem) scale(1.1);
+  }
+  
+  
+  
+  footer,
+  .footer-copyright {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  
 
 
 
@@ -703,6 +753,14 @@ footer {
   .text-wrapper {
     width: 80%;
 }
+
+.form-container {
+    width: 68%;
+  }
+
+  .form-header {
+    font-size: 1.4rem;
+  }
 
 }
 
@@ -854,7 +912,7 @@ footer {
 
   .testimonials {
     margin: 0 auto;
-    width: 65%
+    width: 85%
   }
 
   .testimonial-header {
@@ -868,11 +926,11 @@ footer {
     }
     
   .form-container {
-    width: 70%;
+    width: 80%;
   }
 
   .specials-header {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .specials-line {
@@ -880,11 +938,11 @@ footer {
 }
 
 .specials-description {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .price {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
 }
