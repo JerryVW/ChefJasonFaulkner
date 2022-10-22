@@ -19,16 +19,16 @@ addTransitionClass();
 // Functionality for contact buttons to go to the form
 
 Array.from(contactMe).forEach(function(contact){
-    console.log(contact);
     contact.addEventListener("click", function(e) {
             location.href = '#contact';
     });
 
 });
 
-about.addEventListener('click', function(e) {
-    
-    location.href = 'about.html'
-});
+if(about) {
+    about.addEventListener('click', function(e) {
+        location.href = 'about.html'
+    });
+}
 
 
