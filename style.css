@@ -998,6 +998,13 @@ p {
     font-size: 1.2rem;
 }
 
+#icon-f,
+#icon-i,
+#icon-t,
+#icon-g {
+  font-size: 2rem;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
