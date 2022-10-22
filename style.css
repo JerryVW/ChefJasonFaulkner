@@ -871,6 +871,15 @@ footer {
     width: 80%;
 }
 
+.about-logo {
+    display: none;
+}
+
+.about-photo {
+    width: 300px;
+    height: 300px;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
