@@ -989,6 +989,11 @@ footer {
     width: 95%;
 }
 
+.about-photo {
+    width: 200px;
+    height: 200px;
+}
+
 p {
     font-size: 1.2rem;
 }
