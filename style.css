@@ -634,7 +634,7 @@ footer {
   #icon-t,
   #icon-g {
     font-size: 3rem;
-    padding: 0 1rem;
+    padding: 0 0.6rem;
     display: inline-block;
     transition: transform .3s;
   }
