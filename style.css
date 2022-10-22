@@ -212,7 +212,7 @@ body {
   height: 50px;
   color: rgb(253, 239, 210);
   border: 2px solid rgb(253, 239, 210);
-  border-radius: 20px;
+  border-radius: 50px;
   font-size: 1.2rem;
   transition: 0.3s ease;
 }
@@ -673,10 +673,6 @@ footer {
   }
   
 
-
-
-
-
 /* MENU LIST */
 .menu-container {
   width: 100%;
@@ -705,6 +701,29 @@ footer {
   line-height: 20px;
   text-align: center;
   padding: 10px 0;
+}
+
+/* ABOUT PAGE */
+.about {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-logo {
+    margin-bottom: 20px;
+}
+
+.about-info {
+    color:white;
+    margin: 30px 0;
+    font-size: 1.4rem;
+    line-height: 22px;
+}
+
+.about-footer,
+.footer-copyright {
+    background-color: transparent;
 }
 
 
@@ -843,7 +862,9 @@ footer {
     margin-bottom: 10px;
   }
 
-
+  .about {
+    width: 80%;
+}
 
 }
 
@@ -948,6 +969,14 @@ footer {
 
 .price {
     font-size: 1.8rem;
+}
+
+.about {
+    width: 95%;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 }

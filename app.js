@@ -25,22 +25,10 @@ Array.from(contactMe).forEach(function(contact){
     });
 
 });
-console.log(about);
+
 about.addEventListener('click', function(e) {
     
     location.href = 'about.html'
 });
 
-// contact.addEventListener("click", function(e) {
-//     if(e.target == headerBtn) {
-//         console.log(e.target);
-//         alert("clicked");
-//         // e.target.id = '#contact';
-//     }
-// });
-
-// if(e.target.id == '#about') {
-//     console.log(e.target);
-//     alert("clicked");
-// }
 
