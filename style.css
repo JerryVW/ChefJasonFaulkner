@@ -443,7 +443,7 @@ hr {
   height: 50px;
   color: rgb(0, 124, 52);
   border: 2px solid rgb(0, 124, 52);
-  border-radius: 20px;
+  border-radius: 50px;
   font-size: 1.2rem;
   transition: 0.3s ease;
   margin: 0 auto;
@@ -674,22 +674,33 @@ footer {
   
 
 /* MENU LIST */
+
+
 .menu-container {
+  position: relative;
+  background-color: white;
   width: 100%;
-  height: 600px;
+  height: 1400px;
   background-image: url("images/dessert.jpg");
-  background-size: 50% 100%;
+  background-size: 50% 50%;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom right;
 }
 
 .menu-info {
-  position: relative;
-  background-color: white;
-  width: 50%;
-  height: 600px;
-  text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    text-align: center;
 }
+
+/* .menu-img {
+    position: absolute;
+    margin-right: 0;
+    width: 810px;
+    height: 425px;
+    margin-top: -200px;
+} */
 
 .menu-header {
   font-size: 2.8rem;
@@ -702,6 +713,16 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+
+/* .img-placement {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    background-image: url("images/dessert.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+} */
 
 /* ABOUT PAGE */
 .about {
@@ -729,20 +750,6 @@ footer {
 .about-footer,
 .footer-copyright {
     background-color: transparent;
-}
-
-/* PAGE TRANSITION */
-
-.fade-out {
-    opacity: 0;
-    transition: 500ms ease-out;
-
-}
-
-.fade-in {
-    opacity: 1;
-    transition: 500ms ease-out;
-
 }
 
 
