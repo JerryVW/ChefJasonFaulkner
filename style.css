@@ -739,19 +739,18 @@ footer,
 
 .menu-container {
   position: relative;
-  background-color: white;
   width: 100%;
   height: 1250px;
-  background-image: url('images/dessert.jpg');
   background-size: 42% 42%;
   background-repeat: no-repeat;
   background-position: bottom right;
+  border-radius: 7px;
+  color: rgb(215, 190, 105);
 }
 
 .menu-info {
   width: 100%;
   height: 100%;
-  z-index: 1000;
   text-align: center;
 }
 
@@ -765,16 +764,53 @@ footer,
   line-height: 20px;
   text-align: center;
   padding: 10px 0;
+  margin-bottom: 100px;
 }
 
 .menu-items1,
 .menu-items2 {
   width: 100%;
-  height: 600px;
-  border: 2px solid black;
+  height: 700px;
   margin-top: 2rem;
   padding: 0;
-  margin-left: 20px;
+}
+
+.section-title {
+  font-size: 2.4rem;
+}
+
+.menu-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.menu-items1 p,
+.menu-items2 p {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.item-container {
+  margin-bottom: 40px;
+}
+
+.sides-container {
+  margin-top: 20px;
+}
+
+.sides {
+  height: 340px;
+}
+
+.sides p {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.menu-footer,
+.footer-copyright {
+  background-color: transparent;
+  bottom: 0;
 }
 
 /* ABOUT PAGE */
@@ -953,16 +989,32 @@ footer,
 
   .menu-container {
     background-image: none;
-    height: 900px;
+    height: 2050px;
+  }
+
+  .menu-phrase {
+    margin-bottom: 40px;
   }
 
   .menu-items1,
   .menu-items2 {
     width: 92%;
-    height: 350px;
-    border: 2px solid black;
+    height: 1075px;
     margin-top: 2rem;
     margin: 0 auto;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .sides {
+    height: 250px;
+  }
+
+  .sides p {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
   }
 }
 
