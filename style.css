@@ -181,14 +181,14 @@ body {
 }
 
 .right a {
-  color: rgba(199, 199, 199, 0.8);
+  color: rgb(215, 190, 105);
   text-decoration: none;
   margin-left: 20px;
   transition: color 0.3s ease;
 }
 
 .navbar-nav a:hover {
-  color: rgb(253, 239, 210);
+  color: rgb(253, 226, 135);
 }
 
 /* MAIN HEADER SECTION */
