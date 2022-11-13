@@ -1160,6 +1160,10 @@ footer,
 }
 
 @media only screen and (max-width: 480px) {
+  .carousel {
+    height: 200px;
+  }
+
   .header-info {
     margin-top: -48%;
   }
