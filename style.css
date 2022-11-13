@@ -1085,7 +1085,7 @@ footer,
   }
 
   .testimonials-container {
-    height: 60%;
+    height: 270px;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.4),
@@ -1105,8 +1105,8 @@ footer,
   }
 
   .testimonial-img {
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
   }
 
   .form-header {
@@ -1115,7 +1115,7 @@ footer,
   }
 
   .form-container {
-    width: 80%;
+    width: 85%;
   }
 
   .form-group {
@@ -1170,7 +1170,7 @@ footer,
   }
 
   .header-info {
-    margin-top: -50%;
+    margin-top: -52%;
   }
 
   .header-info h2 {
