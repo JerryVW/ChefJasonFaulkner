@@ -1227,6 +1227,14 @@ footer,
     font-size: 1.4rem;
   }
 
+  .testimonial-img {
+    margin-bottom: 12px;
+  }
+
+  .testimonial-name {
+    margin-bottom: 10px;
+  }
+
   .testimonial-phrase {
     font-size: 0.8rem;
     padding: 5px;
