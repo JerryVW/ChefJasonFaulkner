@@ -1168,15 +1168,15 @@ footer,
 @media only screen and (max-width: 480px) {
   .carousel,
   .carousel-inner {
-    height: 230px;
+    height: 250px;
   }
 
   .carousel-item {
-    height: 230px;
+    height: 250px;
   }
 
   .header-info {
-    margin-top: -54%;
+    margin-top: -60%;
   }
 
   .header-info h2 {
