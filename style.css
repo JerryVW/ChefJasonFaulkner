@@ -984,7 +984,7 @@ footer,
 
   .testimonial-phrase {
     font-size: 1rem;
-    line-height: 18px;
+    line-height: 14px;
     margin-bottom: 10px;
   }
 
@@ -1085,7 +1085,7 @@ footer,
   }
 
   .testimonials-container {
-    height: 270px;
+    height: 280px;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.4),
@@ -1107,6 +1107,10 @@ footer,
   .testimonial-img {
     width: 100px;
     height: 100px;
+  }
+
+  .testimonial-phrase {
+    font-size: 0.8rem;
   }
 
   .form-header {
@@ -1170,7 +1174,7 @@ footer,
   }
 
   .header-info {
-    margin-top: -52%;
+    margin-top: -54%;
   }
 
   .header-info h2 {
@@ -1218,7 +1222,7 @@ footer,
   }
 
   .client-name {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .testimonial-phrase {
