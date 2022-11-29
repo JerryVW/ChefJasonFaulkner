@@ -245,24 +245,6 @@ body {
   border-radius: 5px;
 }
 
-.carousel-indicators li {
-  width: 8px;
-  height: 8px;
-  margin: 0 10px;
-  border-radius: 100%;
-}
-
-.carousel-indicators .active {
-  width: 10px;
-  height: 10px;
-  margin: 0 10px;
-  border-radius: 100%;
-  background-color: transparent;
-  border: 1px solid gold;
-  transition: all 0s;
-  transform: translateY(0.5rem);
-}
-
 .header-info {
   width: 35%;
   height: 35%;
