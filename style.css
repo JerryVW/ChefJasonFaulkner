@@ -1231,6 +1231,10 @@ footer,
     font-size: 1.2rem;
   }
 
+  .container {
+    margin-top: 35px;
+  }
+
   #icon-f,
   #icon-i,
   #icon-t,
