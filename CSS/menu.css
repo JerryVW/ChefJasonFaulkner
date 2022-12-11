@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(../images/background-5.jpg);
+  background-image: -o-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-5.jpg);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/background-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  font-family: 'Calibri', 'san-serif';
+  font-style: italic;
+}
+
+/* NAVIGATION BAR */
+
+.logo {
+  margin-top: 1rem;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(215, 190, 105)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(215, 190, 105);
+  outline: none;
+}
+
+.navbar {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.right li {
+  margin-bottom: 10px;
+}
+
+.right a {
+  color: rgb(215, 190, 105);
+  text-decoration: none;
+  margin-left: 20px;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: rgb(253, 226, 135);
+}
+
+/* MENU LIST */
+
+.menu-container {
+  width: 100%;
+  color: rgb(215, 190, 105);
+}
+
+.menu-info {
+  width: 100%;
+  text-align: center;
+}
+
+.menu-header {
+  font-size: 2.8rem;
+  margin-top: 5%;
+}
+
+.menu-phrase {
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 100px;
+}
+
+.menu-items1,
+.menu-items2 {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  margin-top: 25px;
+}
+
+.menu-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.menu-items1 p,
+.menu-items2 p {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.item-container {
+  margin-bottom: 40px;
+}
+
+.sides-container {
+  margin-top: 20px;
+}
+
+.sides p {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+
+.menu-footer,
+.footer-copyright {
+  background-color: transparent;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 170px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.container {
+  border: none;
+  padding: 2rem;
+}
+
+#icon-f,
+#icon-i,
+#icon-t,
+#icon-g {
+  font-size: 3rem;
+  padding: 0 0.6rem;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+#icon-f {
+  color: #3b5998;
+}
+
+#icon-i {
+  color: #e95950;
+}
+
+#icon-t {
+  color: #55acee;
+}
+
+#icon-g {
+  color: #dd4b39;
+}
+
+#icon-f:hover,
+#icon-i:hover,
+#icon-t:hover,
+#icon-g:hover {
+  -webkit-transform: translateY(-0.4rem) scale(1.1);
+  -ms-transform: translateY(-0.4rem) scale(1.1);
+  transform: translateY(-0.4rem) scale(1.1);
+}
+
+footer,
+.footer-copyright {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1655px) {
+  .container-fluid {
+    width: 1650px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    margin: 1rem auto 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-collapse ul li {
+    text-align: center;
+    margin-left: -20px;
+  }
+
+  .menu-container {
+    background-image: none;
+  }
+
+  .menu-phrase {
+    margin-bottom: 40px;
+  }
+
+  .menu-items1,
+  .menu-items2 {
+    width: 92%;
+    margin-top: 2rem;
+    margin: 0 auto;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .sides p {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1.2rem;
+  }
+
+  #icon-f,
+  #icon-i,
+  #icon-t,
+  #icon-g {
+    font-size: 2rem;
+  }
+}

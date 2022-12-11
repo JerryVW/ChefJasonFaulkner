@@ -131,12 +131,27 @@ table {
 }
 
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 16px;
   scroll-behavior: smooth;
 }
 
 body {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url(images/background-5.jpg);
+  background-image: -o-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/background-5.jpg);
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5),
@@ -184,6 +199,8 @@ body {
   color: rgb(215, 190, 105);
   text-decoration: none;
   margin-left: 20px;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
@@ -214,6 +231,40 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(hsla(0, 0%, 8%, 0)),
+    color-stop(19%, hsla(0, 0%, 8%, 0)),
+    color-stop(34%, hsla(0, 0%, 8%, 0)),
+    color-stop(48%, hsla(0, 0%, 8%, 0.826)),
+    color-stop(52.5%, hsla(0, 0%, 8%, 0.924)),
+    color-stop(62%, hsla(0, 0%, 8%, 0.988)),
+    color-stop(73%, hsla(0, 0%, 8%, 1)),
+    color-stop(80.2%, hsla(0, 0%, 8%, 1)),
+    color-stop(86.1%, hsla(0, 0%, 8%, 1)),
+    color-stop(91%, hsla(0, 0%, 8%, 1)),
+    color-stop(95.2%, hsla(0, 0%, 8%, 1)),
+    color-stop(98.2%, hsla(0, 0%, 8%, 1)),
+    to(hsla(0, 0%, 8%, 1))
+  );
+  background-image: -o-linear-gradient(
+    left,
+    hsla(0, 0%, 8%, 0) 0%,
+    hsla(0, 0%, 8%, 0) 19%,
+    hsla(0, 0%, 8%, 0) 34%,
+    hsla(0, 0%, 8%, 0.826) 48%,
+    hsla(0, 0%, 8%, 0.924) 52.5%,
+    hsla(0, 0%, 8%, 0.988) 62%,
+    hsla(0, 0%, 8%, 1) 73%,
+    hsla(0, 0%, 8%, 1) 80.2%,
+    hsla(0, 0%, 8%, 1) 86.1%,
+    hsla(0, 0%, 8%, 1) 91%,
+    hsla(0, 0%, 8%, 1) 95.2%,
+    hsla(0, 0%, 8%, 1) 98.2%,
+    hsla(0, 0%, 8%, 1) 100%
+  );
   background-image: linear-gradient(
     90deg,
     hsla(0, 0%, 8%, 0) 0%,
@@ -234,6 +285,8 @@ body {
 }
 
 .carousel-inner {
+  -webkit-transition: all 8s;
+  -o-transition: all 8s;
   transition: all 8s;
 }
 
@@ -241,6 +294,8 @@ body {
   width: 80%;
   height: 100%;
   max-height: 750px;
+  -webkit-transition: all 10s;
+  -o-transition: all 10s;
   transition: all 10s;
   border-radius: 5px;
 }
@@ -252,6 +307,8 @@ body {
   color: whitesmoke;
   right: 5%;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 1000;
   text-align: center;
@@ -276,6 +333,8 @@ body {
 
 .centering span {
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   margin: 0;
   padding: 0;
@@ -299,6 +358,8 @@ body {
   border: 2px solid rgb(253, 239, 210);
   border-radius: 50px;
   font-size: 1.2rem;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
@@ -350,10 +411,12 @@ body {
 }
 
 .delay1 {
+  -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }
 
 .delay2 {
+  -webkit-animation-delay: 4s;
   animation-delay: 4s;
 }
 
@@ -369,6 +432,20 @@ body {
 
 .cell1 {
   height: 300px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url('images/horderves.jpg');
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('images/horderves.jpg');
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.4),
@@ -383,6 +460,20 @@ body {
 .cell2 {
   border-left: 5px solid transparent;
   height: 300px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url('images/salad-dinner.jpg');
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('images/salad-dinner.jpg');
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.4),
@@ -397,6 +488,20 @@ body {
 .cell3 {
   border-left: 5px solid transparent;
   height: 300px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url('images/steak-dinner.jpg');
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('images/steak-dinner.jpg');
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.4),
@@ -420,6 +525,8 @@ body {
   margin-top: 50px;
   z-index: 1000;
   text-align: center;
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
   transition: 0.4s ease;
 }
 
@@ -472,7 +579,10 @@ hr {
   position: absolute;
   top: 75px;
   right: 10%;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border-radius: 5px;
 }
@@ -484,7 +594,10 @@ hr {
   position: absolute;
   top: 100px;
   left: 10%;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border-radius: 5px;
 }
@@ -496,7 +609,10 @@ hr {
   position: absolute;
   top: 275px;
   left: 20%;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border-radius: 5px;
 }
@@ -506,6 +622,7 @@ hr {
 .tri-img-3:hover {
   z-index: 1000;
   -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -536,6 +653,8 @@ hr {
   border: 2px solid rgb(0, 124, 52);
   border-radius: 50px;
   font-size: 1.2rem;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
   margin: 0 auto;
 }
@@ -552,6 +671,42 @@ hr {
 /* TESTIMONIALS */
 
 .testimonials-container {
+  background-image: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(hsla(0, 0%, 8%, 0)),
+      color-stop(19%, hsla(0, 0%, 8%, 0)),
+      color-stop(34%, hsla(0, 0%, 8%, 0)),
+      color-stop(48%, hsla(0, 0%, 8%, 0.826)),
+      color-stop(52.5%, hsla(0, 0%, 8%, 0.924)),
+      color-stop(62%, hsla(0, 0%, 8%, 0.988)),
+      color-stop(73%, hsla(0, 0%, 8%, 1)),
+      color-stop(80.2%, hsla(0, 0%, 8%, 1)),
+      color-stop(86.1%, hsla(0, 0%, 8%, 1)),
+      color-stop(91%, hsla(0, 0%, 8%, 1)),
+      color-stop(95.2%, hsla(0, 0%, 8%, 1)),
+      color-stop(98.2%, hsla(0, 0%, 8%, 1)),
+      to(hsla(0, 0%, 8%, 1))
+    ),
+    url('images/testimonials.jpg');
+  background-image: -o-linear-gradient(
+      right,
+      hsla(0, 0%, 8%, 0) 0%,
+      hsla(0, 0%, 8%, 0) 19%,
+      hsla(0, 0%, 8%, 0) 34%,
+      hsla(0, 0%, 8%, 0.826) 48%,
+      hsla(0, 0%, 8%, 0.924) 52.5%,
+      hsla(0, 0%, 8%, 0.988) 62%,
+      hsla(0, 0%, 8%, 1) 73%,
+      hsla(0, 0%, 8%, 1) 80.2%,
+      hsla(0, 0%, 8%, 1) 86.1%,
+      hsla(0, 0%, 8%, 1) 91%,
+      hsla(0, 0%, 8%, 1) 95.2%,
+      hsla(0, 0%, 8%, 1) 98.2%,
+      hsla(0, 0%, 8%, 1) 100%
+    ),
+    url('images/testimonials.jpg');
   background-image: linear-gradient(
       -90deg,
       hsla(0, 0%, 8%, 0) 0%,
@@ -646,6 +801,8 @@ hr {
   border: 2px solid rgb(68, 68, 68);
   border-radius: 20px;
   font-size: 1.2rem;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease;
 }
 
@@ -662,6 +819,20 @@ hr {
 
 .special {
   height: auto;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url('images/seafood-pasta.jpg');
+  background-image: -o-linear-gradient(
+      left,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('images/seafood-pasta.jpg');
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.4),
@@ -672,6 +843,7 @@ hr {
   background-repeat: no-repeat;
   color: white;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .text-wrapper {
@@ -722,7 +894,11 @@ footer {
   font-size: 3rem;
   padding: 0 0.6rem;
   display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 #icon-f {
@@ -745,6 +921,8 @@ footer {
 #icon-i:hover,
 #icon-t:hover,
 #icon-g:hover {
+  -webkit-transform: translateY(-0.4rem) scale(1.1);
+  -ms-transform: translateY(-0.4rem) scale(1.1);
   transform: translateY(-0.4rem) scale(1.1);
 }
 
@@ -754,101 +932,6 @@ footer,
   color: white;
   margin: 0;
   text-align: center;
-}
-
-/* MENU LIST */
-
-.menu-container {
-  width: 100%;
-  color: rgb(215, 190, 105);
-}
-
-.menu-info {
-  width: 100%;
-  text-align: center;
-}
-
-.menu-header {
-  font-size: 2.8rem;
-  margin-top: 5%;
-}
-
-.menu-phrase {
-  font-size: 1.4rem;
-  line-height: 20px;
-  text-align: center;
-  padding: 10px 0;
-  margin-bottom: 100px;
-}
-
-.menu-items1,
-.menu-items2 {
-  width: 100%;
-  margin-top: 2rem;
-  padding: 0;
-}
-
-.section-title {
-  font-size: 2.4rem;
-  margin-top: 25px;
-}
-
-.menu-title {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
-
-.menu-items1 p,
-.menu-items2 p {
-  font-size: 1.4rem;
-  margin-bottom: 5px;
-}
-
-.item-container {
-  margin-bottom: 40px;
-}
-
-.sides-container {
-  margin-top: 20px;
-}
-
-.sides p {
-  font-size: 1.8rem;
-  margin-bottom: 25px;
-}
-
-.menu-footer,
-.footer-copyright {
-  background-color: transparent;
-}
-
-/* ABOUT PAGE */
-.about {
-  width: 40%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.about-logo {
-  margin-bottom: 20px;
-}
-
-.about-photo {
-  border: 4px solid white;
-  border-radius: 50%;
-}
-
-.about-info {
-  color: white;
-  margin: 30px 0;
-  font-size: 1.4rem;
-  line-height: 22px;
-  text-align: justify;
-}
-
-.about-footer,
-.footer-copyright {
-  background-color: transparent;
 }
 
 /* MEDIA QUERIES */
@@ -989,49 +1072,14 @@ footer,
     line-height: 14px;
     margin-bottom: 10px;
   }
-
-  .about {
-    width: 80%;
-  }
-
-  .about-logo {
-    display: none;
-  }
-
-  .about-photo {
-    width: 300px;
-    height: 300px;
-  }
-
-  .menu-container {
-    background-image: none;
-  }
-
-  .menu-phrase {
-    margin-bottom: 40px;
-  }
-
-  .menu-items1,
-  .menu-items2 {
-    width: 92%;
-    margin-top: 2rem;
-    margin: 0 auto;
-  }
-
-  .section-title {
-    margin-bottom: 30px;
-  }
-
-  .sides p {
-    font-size: 1.6rem;
-    margin-bottom: 10px;
-  }
 }
 
 @media only screen and (max-width: 768px) {
   .header-info {
     right: 8%;
     top: 45%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 
@@ -1105,6 +1153,20 @@ footer,
 
   .testimonials-container {
     height: 300px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(0, 0, 0, 0.4)),
+        to(rgba(0, 0, 0, 0.4))
+      ),
+      url('images/testimonials.jpg');
+    background-image: -o-linear-gradient(
+        left,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url('images/testimonials.jpg');
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.4),
@@ -1165,15 +1227,6 @@ footer,
     font-size: 1.8rem;
   }
 
-  .about {
-    width: 95%;
-  }
-
-  .about-photo {
-    width: 200px;
-    height: 200px;
-  }
-
   p {
     font-size: 1.2rem;
   }
@@ -1199,6 +1252,8 @@ footer,
   .header-info {
     right: 8%;
     top: 38%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
 
